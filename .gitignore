@@ -9,6 +9,10 @@ __pycache__/
 # vscode
 .vscode/
 
+# output excel files ignored
+*_output.xls
+*_output.xlsx
+
 # idea
 .idea/
 
