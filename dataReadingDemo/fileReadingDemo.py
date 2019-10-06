@@ -13,14 +13,26 @@ print('='*100)
 
 
 # 操作xls
+# sheet_name="Sheet1", sheet_name = 0
+# index_col = 0
+# header = 0
+# hearer = None (使用默认的0开始的列索引）
+# usecols = [0, 2] 导入两列
+# engine = "python", encoding = "utf-8-sig"
 df2 = pd.read_excel(r"./test1.xls")
 print(df2)
 print('='*100)
 
-# 操作xlsx
-df3 = pd.read_excel(r"./excelData/customer-service.xlsx", nrows=10)
-print(df3)
+print(df2.shape)
+print('='*100)
+print(df2.info())
+print('='*100)
+print(df2.describe())
 print('='*100)
 
 
+# 操作xlsx
+# df3 = pd.read_excel(r"./excelData/customer-service.xlsx", nrows=100)
+# print(df3)
+# print('='*100)
 
