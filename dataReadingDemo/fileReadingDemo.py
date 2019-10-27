@@ -18,7 +18,7 @@ print('='*100)
 # header = 0
 # hearer = None (使用默认的0开始的列索引）
 # usecols = [0, 2] 导入两列
-# engine = "python", encoding = "utf-8-sig"
+# engine = "python", encoding = "utf-8-sig"p
 df2 = pd.read_excel(r"./test1.xls")
 print(df2)
 print('='*100)
