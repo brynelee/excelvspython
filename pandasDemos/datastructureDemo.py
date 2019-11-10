@@ -34,6 +34,7 @@ df3 = pd.DataFrame([['a', 'A'], ['b', 'B'], ['c', 'C'], ['d', 'D']],
     columns = ['小写', '大写'],
     index = ["一", "二", "三", "四"])
 print(df3)
+print(df3.iloc[0])
 print('='*100)
 
 data = {"小写":['a1', 'b1', 'c1', 'd1'],
