@@ -44,4 +44,5 @@ print(df4)
 print(df4.columns)
 print(df4.index)
 print('='*100)
+print(df4.info())
 
